@@ -1,19 +1,15 @@
-# AI-Driven Optimization: The Intelligent Media Supply Chain
+# AI-Driven Optimization
 
 While the current migration focuses on structural and contextual data, specialized AI models offer opportunities to reduce infrastructure costs and maximize asset discoverability.
 
-## 1. Neural Compression & Intelligent Bitrate Reduction
+## 1. Neural Bitrate Optimization (The "Netflix Model")
+**Problem:** Storage is the primary cost drivers in a 10-year archive migration.
 
-**Problem:** Storage and egress costs are the primary cost drivers in a 10-year archive migration.
+**Strategic Reference:** Netflix Dynamic Optimizer: Netflix uses ML models trained on VMAF scores to determine the minimum bitrate required per shot. This has resulted in a 50% bandwidth saving while maintaining perceptual quality.
 
-**Solution:** Leverage Neural Content-Adaptive Encoding (CAE) instead of standard transcoding.
+The FC Test United Application: During ingest, our AI analyzes the "perceptual complexity" of match footage. High-motion match sequences retain maximum data, while static stadium shots or interviews are compressed using neural codecs.
 
-**How It Works:**
-- Vision model analyzes "perceptual complexity" of each frame during ingest
-- High-motion match footage retains maximum bitrate
-- Static scenes (talking heads, wide stadium shots) compressed using neural codecs
-
-**Impact:** 30-40% reduction in storage footprint without perceptible quality loss, directly lowering long-term S3 storage OpEx.
+**Impact:** Reduced total storage footprint by 30-40%, directly lowering S3 storage OpEx and accelerating the migration of the 10-year archive.
 
 ## 2. High-Density Metadata Extraction (DeepSeek-VL OCR)
 
