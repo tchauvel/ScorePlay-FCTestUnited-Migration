@@ -6,6 +6,8 @@
 **Date**: December 2024  
 **Status**: ✅ Prototype Complete - Ready for Production Deployment
 
+NOTE: This is an hypothetical document since it's not possible to test it in real environment. 
+
 ---
 
 ## Overview
@@ -16,7 +18,7 @@ We have successfully completed the migration prototype for FC Test United. The l
 
 ## Custom Glue (The FDE Layer)
 
-We developed two bespoke components to handle the club's specific technical debt:
+We developed two bespoke components to handle the club specific technical debt:
 
 ### 1. Modular Dalet Connector
 
@@ -85,7 +87,7 @@ Leveraged for the Week 3-4 bulk archive transfer to maximize throughput while re
 
 ---
 
-## Residual Risks for Go-Live
+## Residual Risks for Go-Live 
 
 ### 1. NAS Performance
 
