@@ -35,7 +35,7 @@ A dedicated `dalet_connector.py` module was built to parse their legacy XML side
 - Reusable module for future Dalet integrations
 - Extracts fields like: `Match_Competition`, `Match_OM_Stadium`, `LOGGING_TEAM`, etc.
 
-### 2. Quiescence Ingest Heuristic
+### 2. Stability Logic
 
 To prevent the ingestion of "growing files" from their live broadcast encoders, we implemented a custom stability check. The Agent waits for file-size stasis before triggering the upload.
 
