@@ -1,6 +1,43 @@
 # ScorePlay Migration Agent
+## FC Test United - Forward Deployed Engineer Solution
 
 Simple Python script to migrate MXF video files to ScorePlay with metadata extraction from filenames and optional XML sidecar files.
+
+---
+
+## Repository Structure
+
+This repository is organized according to the assessment deliverables:
+
+### Part 1: Migration & Deployment Proposal
+📄 **`docs/FC-Test-United-Technical-doc.pdf`**  
+Initial technical proposal and deployment strategy.
+
+### Part 2: Code Implementation & Documentation
+**Source Code:**
+- `ScorePlay.py` - Main migration script
+- `dalet_connector.py` - Dalet XML parser module
+- `config.py` - Configuration management
+
+**Code Documentation:**
+- `docs/CODE_QUALITY.md` - Design decisions and code quality documentation
+
+### Part 3: Customer Handover Note
+📄 **`docs/MIGRATION_PLAN.md`**  
+Complete customer handover documentation including:
+- Custom Glue components (Dalet Connector, Quiescence Heuristic)
+- ScorePlay product features leveraged
+- Residual risks for go-live
+- Operational procedures
+
+### Part 4: Future Enhancements
+📄 **`docs/AI-Ideas.md`**  
+AI-driven optimization opportunities:
+- Neural compression for storage optimization
+- Vision-based metadata extraction
+- Probabilistic validation layer
+
+---
 
 ## Quick Start
 
@@ -47,11 +84,22 @@ REQUEST_TIMEOUT=10
 - ✅ Creates assets in ScorePlay via API
 - ✅ Simulation mode for testing (`--simulate` or `-s`)
 
-## Architecture
+## Project Structure
 
-- `ScorePlay.py` - Main migration script
-- `dalet_connector.py` - Dalet XML parser
-- `config.py` - Configuration management
+```
+ScorePlay/
+├── ScorePlay.py              # Main migration script
+├── dalet_connector.py        # Dalet XML parser
+├── config.py                 # Configuration management
+├── requirements.txt          # Python dependencies
+├── .env.example              # Configuration template
+├── README.md                 # This file
+└── docs/                     # Documentation
+    ├── FC-Test-United-Technical-doc.pdf  # Part 1: Proposal
+    ├── CODE_QUALITY.md                    # Part 2: Code docs
+    ├── MIGRATION_PLAN.md                  # Part 3: Handover
+    └── AI-Ideas.md                        # Part 4: Enhancements
+```
 
 ## Support
 
