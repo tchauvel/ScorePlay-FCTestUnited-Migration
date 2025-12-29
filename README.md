@@ -11,7 +11,7 @@ This repository is organized according to the assessment deliverables:
 
 ### Part 1: Migration & Deployment Proposal
 📄 **`docs/FC-Test-United-Technical-doc.pdf`**  
-Initial technical proposal and deployment strategy.
+Customer technical proposal and deployment strategy.
 
 ### Part 2: Code Implementation & Documentation
 **Source Code:**
@@ -25,7 +25,7 @@ Initial technical proposal and deployment strategy.
 ### Part 3: Customer Handover Note
 📄 **`docs/MIGRATION_PLAN.md`**  
 Complete customer handover documentation including:
-- Custom Glue components (Dalet Connector, Quiescence Heuristic)
+- Custom Glue components (Dalet Connector, ...)
 - ScorePlay product features leveraged
 - Residual risks for go-live
 - Operational procedures
