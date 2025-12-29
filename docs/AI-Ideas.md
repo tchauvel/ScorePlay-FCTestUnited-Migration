@@ -2,7 +2,7 @@
 
 While the current migration focuses on structural and contextual data, specialized AI models offer opportunities to reduce infrastructure costs and maximize asset discoverability.
 
-- Automation: Neural transcoding (referencing Netflix/YouTube case studies) to reduce storage costs.
+- Automation: Neural transcoding (Netflix/YouTube Model) to reduce storage costs.
 - Enrichment: Use of DeepSeek OCR/LVMs to "heal" missing metadata.
 - Validation: AI acting as an "Auditor" to cross-reference filenames vs. visual reality.
 
