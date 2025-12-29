@@ -20,10 +20,10 @@ Customer technical proposal and deployment strategy.
 - `config.py` - Configuration management
 
 **Code Documentation:**
-- `docs/CODE_QUALITY.md` - Design decisions and code quality documentation
+- `docs/Code_Quality_Design.md` - Design decisions and code quality documentation
 
 ### Part 3: Customer Handover Note
-📄 **`docs/MIGRATION_PLAN.md`**  
+📄 **`docs/Customer_Success_Handover_Note.md`**  
 Complete customer handover documentation including:
 - Custom Glue components (Dalet Connector, ...)
 - ScorePlay product features leveraged
