@@ -4,6 +4,22 @@
 Simple Python script to migrate MXF video files to ScorePlay with metadata extraction from filenames and optional XML sidecar files.
 
 ---
+## Project Structure
+
+```
+ScorePlay/
+├── ScorePlay.py              # Main migration script
+├── dalet_connector.py        # Dalet XML parser
+├── config.py                 # Configuration management
+├── requirements.txt          # Python dependencies
+├── .env.example              # Configuration template
+├── README.md                 # This file
+└── docs/                     # Documentation
+    ├── FC-Test-United-Technical-doc.pdf  # Part 1: Proposal
+    ├── CODE_QUALITY.md                    # Part 2: Code docs
+    ├── MIGRATION_PLAN.md                  # Part 3: Handover
+    └── AI-Ideas.md                        # Part 4: Enhancements
+```
 
 ## Repository Structure
 
@@ -38,24 +54,6 @@ AI-driven optimization opportunities:
 - Probabilistic validation layer
 
 ---
-
-## Project Structure
-
-```
-ScorePlay/
-├── ScorePlay.py              # Main migration script
-├── dalet_connector.py        # Dalet XML parser
-├── config.py                 # Configuration management
-├── requirements.txt          # Python dependencies
-├── .env.example              # Configuration template
-├── README.md                 # This file
-└── docs/                     # Documentation
-    ├── FC-Test-United-Technical-doc.pdf  # Part 1: Proposal
-    ├── CODE_QUALITY.md                    # Part 2: Code docs
-    ├── MIGRATION_PLAN.md                  # Part 3: Handover
-    └── AI-Ideas.md                        # Part 4: Enhancements
-```
-
 
 ## Quick Start
 
