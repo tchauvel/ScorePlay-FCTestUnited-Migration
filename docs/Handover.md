@@ -319,7 +319,7 @@ python ScorePlay.py
 - `dalet_connector.py` - Dalet XML parser
 - `config.py` - Configuration management
 - `README.md` - Quick start guide
-- `CODE_QUALITY.md` - Design decisions documentation
+- `Documentation.md` - Complete technical and usage documentation
 
 ### Configuration
 
