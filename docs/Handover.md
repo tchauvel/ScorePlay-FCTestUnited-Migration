@@ -130,6 +130,20 @@ Leveraged for the Week 3-4 bulk archive transfer to maximize throughput while re
 - [ ] Document network jitter incidents
 - [ ] Coordinate with FDE team for buffer tuning if needed
 
+### 4. Maintenance
+
+* Custom Updates: If the club changes their Dalet XML schema, the FDE team will push an update to the dalet_connector.py.
+* Automated Testing: Our GitHub Action will automatically validate the new schema against the FILENAME_PATTERN regex before the Agent pulls the update.
+* Zero-Downtime: The Agent is designed to reload configuration changes without interrupting active SRT streams or file-scanning loops.
+The migration tool is designed for Automated Lifecycle Management:
+
+* Version Control: All custom connectors are stored in a versioned repository.
+
+* Health Checks: The script includes a status_code logger that can be hooked into monitoring tools (like Datadog or Prometheus) to alert the FDE team if API failure rates exceed 5%.
+
+* Environment Isolation: Using python-dotenv, we ensure that production API keys are never hard-coded, allowing for seamless transition between TEST and PROD environments.
+
+
 ---
 
 ## Technical Architecture
@@ -305,6 +319,7 @@ python ScorePlay.py
 2. **Validation**: Verify file integrity and format compliance
 3. **Transcoding**: If ScorePlay requires different formats
 4. **Watchfolder**: Continuous monitoring for new files (future enhancement)
+5. **Maintenance**: CI/CD implementation
 
 ---
 
