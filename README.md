@@ -25,7 +25,7 @@ Customer technical proposal and deployment strategy.
 ### Part 3: Customer Handover Note
 📄 **`docs/Handover.md`**  
 Complete customer handover documentation including:
-- Custom Glue components (Dalet Connector, Quiescence Heuristic)
+- Custom Glue components (Dalet Connector, algorithm)
 - ScorePlay product features leveraged
 - Residual risks for go-live
 - Operational procedures
